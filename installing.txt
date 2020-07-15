@@ -1,0 +1,5 @@
+
+//To Add the extension to your site
+//NavHeading parameter determines what the root node should be named
+
+Add-PnPCustomAction -Title "React Navigation" -Name "React Navigation" -Location ClientSideExtension.ApplicationCustomizer -ClientSideComponentId 1859a5f8-d2fc-4c55-91ba-a097edf6da00 -ClientSideComponentProperties "{""NavHeading"":""Departments""}"
